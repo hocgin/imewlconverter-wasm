@@ -1,0 +1,9 @@
+  Determining projects to restore...
+/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Abstractions/ImeWlConverter.Abstractions.csproj (in 5.95 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.CodeData/ImeWlConverter.CodeData.csproj (in 5.95 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Formats/ImeWlConverter.Formats.csproj (in 5.95 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Core/ImeWlConverter.Core.csproj (in 5.95 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Application/ImeWlConverter.Application.csproj (in 5.95 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj (in 24.56 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj (in 28.99 sec).

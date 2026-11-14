@@ -1,0 +1,28 @@
+  Determining projects to restore...
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Abstractions/ImeWlConverter.Abstractions.csproj (in 4.99 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.CodeData/ImeWlConverter.CodeData.csproj (in 4.99 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Formats/ImeWlConverter.Formats.csproj (in 4.99 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Core/ImeWlConverter.Core.csproj (in 4.99 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Application/ImeWlConverter.Application.csproj (in 4.99 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj (in 23.6 sec).
+  Restored /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/ImeWlConverterCmd.csproj (in 25.91 sec).
+  ImeWlConverter.CodeData -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.CodeData/bin/Release/net10.0/ImeWlConverter.CodeData.dll
+  ImeWlConverter.Abstractions -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Abstractions/bin/Release/net10.0/ImeWlConverter.Abstractions.dll
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(119,28): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(252,24): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(257,67): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+  ImeWlConverter.SourceGenerators -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/bin/Release/netstandard2.0/ImeWlConverter.SourceGenerators.dll
+  ImeWlConverter.Core -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Core/bin/Release/net10.0/ImeWlConverter.Core.dll
+  ImeWlConverter.Formats -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Formats/bin/Release/net10.0/ImeWlConverter.Formats.dll
+  ImeWlConverter.Application -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Application/bin/Release/net10.0/ImeWlConverter.Application.dll
+  ImeWlConverterCmd -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll
+
+Build succeeded.
+
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(119,28): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(252,24): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(257,67): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:30.32

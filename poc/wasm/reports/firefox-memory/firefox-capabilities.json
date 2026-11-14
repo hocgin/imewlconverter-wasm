@@ -1,0 +1,30 @@
+{
+  "sessionId": "7c33b7f7-a46a-43fe-bdef-2b7f2dbd9927",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "160.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20261104181552",
+    "moz:geckodriverVersion": "0.36.0",
+    "moz:headless": true,
+    "moz:platformVersion": "27.0.0",
+    "moz:processID": 13605,
+    "moz:profile": "/var/folders/f7/tb3bn1252394tl0z1_s171v00000gn/T/rust_mozprofileUhDaNo",
+    "moz:shutdownTimeout": 73000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "mac",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:160.0) Gecko/20100101 Firefox/160.0"
+  }
+}

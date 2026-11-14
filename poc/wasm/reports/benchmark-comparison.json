@@ -1,0 +1,20 @@
+[
+  {
+    "mb": 1,
+    "byteEqual": true,
+    "cliSHA256": "b082f97dc71d4bdf51f621d74d51d6fe5ebee2ba2b4df0abf7e8bf6218dfaf66",
+    "browserSHA256": "b082f97dc71d4bdf51f621d74d51d6fe5ebee2ba2b4df0abf7e8bf6218dfaf66"
+  },
+  {
+    "mb": 10,
+    "byteEqual": true,
+    "cliSHA256": "ce208c3bb62538b19bf1805a74006994e789a300784763b25b5e7f5313fe150b",
+    "browserSHA256": "ce208c3bb62538b19bf1805a74006994e789a300784763b25b5e7f5313fe150b"
+  },
+  {
+    "mb": 50,
+    "byteEqual": true,
+    "cliSHA256": "c802ee7405b43472d9def730422b05999fb8ccb3757c64bee58670588c9b5405",
+    "browserSHA256": "c802ee7405b43472d9def730422b05999fb8ccb3757c64bee58670588c9b5405"
+  }
+]

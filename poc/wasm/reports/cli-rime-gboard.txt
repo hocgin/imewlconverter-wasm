@@ -1,0 +1,13 @@
+# Gboard Dictionary version:1
+buzhichi	不支持	zh-CN
+cuo	錯	zh-CN
+juede	覺得	zh-CN
+kankan	看看	zh-CN
+le	了	zh-CN
+lijie	理解	zh-CN
+ni	你	zh-CN
+nihao	你好	zh-CN
+shibushi	是不是	zh-CN
+ta	他	zh-CN
+wo	我	zh-CN
+zengyi	曾毅	zh-CN

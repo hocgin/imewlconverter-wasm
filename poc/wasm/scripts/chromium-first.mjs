@@ -1,0 +1,13 @@
+const fs=await import('node:fs/promises');
+const root=process.env.IMEWL_ROOT || process.cwd();
+const t=await taskSpace(Number(process.env.EGO_TASK_SPACE_ID || (() => { throw new Error('Set EGO_TASK_SPACE_ID to your current Ego TaskSpace ID'); })())),p=t.page('p1');
+await fs.writeFile(root+'/poc/wasm/reports/chromium-initial.json',JSON.stringify(await p.evaluate(()=>({metrics:pocMetrics(),formats:JSON.parse(document.querySelector('#formats').textContent)})),null,2));
+await p.setInputFiles('input[type=file]',[root+'/upstream/imewlconverter/src/ImeWlConverterCoreTest/Test/唐诗300首【官方推荐】.scel']);
+await p.click('#convert');
+await p.waitForFunction(()=>['Complete','Failed'].includes(document.querySelector('#progress').textContent),undefined,{timeout:60000});
+console.log(await p.snapshot());
+const evidence=await p.evaluate(()=>({result:document.querySelector('#result').textContent,error:document.querySelector('#errors').textContent,metrics:pocMetrics()}));
+await fs.writeFile(root+'/poc/wasm/reports/chromium-scel-rime.json',JSON.stringify(evidence,null,2));
+if(evidence.error)throw Error(evidence.error);
+const promise=p.waitForEvent('download');await p.click('#download');const download=await promise;await download.saveAs(root+'/poc/wasm/reports/browser-scel-rime.dict.yaml');
+console.log(evidence);

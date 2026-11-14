@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "ok": true,
+  "result": {
+    "imported": 2,
+    "exported": 2,
+    "filtered": 0,
+    "outputs": [
+      {
+        "path": "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-gboard-rime.dict.yaml",
+        "entries": 2
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,27 @@
+  Determining projects to restore...
+/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  All projects are up-to-date for restore.
+/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  ImeWlConverter.Abstractions -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Abstractions/bin/Debug/net10.0/ImeWlConverter.Abstractions.dll
+  ImeWlConverter.CodeData -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.CodeData/bin/Debug/net10.0/ImeWlConverter.CodeData.dll
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(119,28): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(252,24): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(257,67): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+  ImeWlConverter.SourceGenerators -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/bin/Debug/netstandard2.0/ImeWlConverter.SourceGenerators.dll
+  ImeWlConverter.Core -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Core/bin/Debug/net10.0/ImeWlConverter.Core.dll
+  ImeWlConverter.Formats -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Formats/bin/Debug/net10.0/ImeWlConverter.Formats.dll
+  ImeWlConverter.Application -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Application/bin/Debug/net10.0/ImeWlConverter.Application.dll
+  WasmPoc -> /Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/bin/Debug/net10.0/WasmPoc.dll
+  WasmPoc (Blazor output) -> /Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/bin/Debug/net10.0/wwwroot
+
+Build succeeded.
+
+/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(119,28): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(252,24): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/FormatRegistrationGenerator.cs(257,67): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/ImeWlConverter.SourceGenerators.csproj]
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.97

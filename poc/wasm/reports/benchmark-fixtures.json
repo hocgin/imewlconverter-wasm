@@ -1,0 +1,26 @@
+{
+  "source": "https://raw.githubusercontent.com/amzxyz/rime-wanxiang/c36653e7c454bfb30f8e634054970d3abefa036c/dicts/jichu.dict.yaml",
+  "downloadedSHA256": "38dc941a717d8c20f44843fed367b9603895088ed98d420185e9b05705a7748d",
+  "sourceBytes": 51586820,
+  "method": "prefix of complete original TSV entry rows; YAML header/comments omitted, no padding or repetition",
+  "fixtures": [
+    {
+      "path": "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/artifacts/fixtures/real-1MB.dict.yaml",
+      "bytes": 999995,
+      "rows": 47065,
+      "sha256": "561f8c6ecf2d8012d7460886e034ed1fc3b1c3eb2f080225f07e521d95df81ae"
+    },
+    {
+      "path": "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/artifacts/fixtures/real-10MB.dict.yaml",
+      "bytes": 9999979,
+      "rows": 392787,
+      "sha256": "fac822c9c3519c0fe053d5314dcc3ac0f01dd09ddca3dabbefb1bbaee852b261"
+    },
+    {
+      "path": "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/artifacts/fixtures/real-50MB.dict.yaml",
+      "bytes": 49999961,
+      "rows": 1531771,
+      "sha256": "d91f089f842a4ef7fcc21339cd884a9153e37ec4160b61c9aba48168dd3de498"
+    }
+  ]
+}

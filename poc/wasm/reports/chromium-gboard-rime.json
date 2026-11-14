@@ -1,0 +1,14 @@
+{
+  "result": "{\n  \"from\": \"gboard\",\n  \"to\": \"rime\",\n  \"inputBytes\": 146,\n  \"Imported\": 2,\n  \"Exported\": 2,\n  \"ExportErrors\": 0,\n  \"ImportErrors\": [],\n  \"ElapsedMs\": 108.8,\n  \"ManagedLiveBytesAfter\": 20048056,\n  \"ManagedHeapBytesAfter\": 15300096,\n  \"outputBytes\": 64,\n  \"preview\": \"\\u66FE\\u6BC5\\tzeng yi\\t1\\n\\u6DF1\\u84DD\\u8BCD\\u5E93\\u8F6C\\u6362\\tshen lan ci ku zhuan huan\\t1\\n\"\n}",
+  "error": "",
+  "metrics": {
+    "loadMs": 220.89999997615814,
+    "resourceBytes": 12580812,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "errors": [],
+    "jsHeap": 25420525,
+    "wasmLinearBytes": 69730304,
+    "longTaskCount": 2,
+    "maxLongTaskMs": 120
+  }
+}

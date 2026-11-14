@@ -1,0 +1,451 @@
+{
+  "Microsoft.AspNetCore.App.Internal.Assets/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Authorization/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.AspNetCore.Metadata": "10.0.15",
+      "Microsoft.Extensions.Diagnostics": "10.0.15",
+      "Microsoft.Extensions.Logging.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Options": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.AspNetCore.Authorization.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Components/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.AspNetCore.Authorization": "10.0.15",
+      "Microsoft.AspNetCore.Components.Analyzers": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.AspNetCore.Components.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Components.Analyzers/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Components.Forms/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.AspNetCore.Components": "10.0.15",
+      "Microsoft.Extensions.Validation": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.AspNetCore.Components.Forms.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Components.Web/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.AspNetCore.Components": "10.0.15",
+      "Microsoft.AspNetCore.Components.Forms": "10.0.15",
+      "Microsoft.Extensions.DependencyInjection": "10.0.15",
+      "Microsoft.Extensions.Primitives": "10.0.15",
+      "Microsoft.JSInterop": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.AspNetCore.Components.Web.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Components.WebAssembly/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.AspNetCore.Components.Web": "10.0.15",
+      "Microsoft.Extensions.Configuration.Binder": "10.0.15",
+      "Microsoft.Extensions.Configuration.Json": "10.0.15",
+      "Microsoft.Extensions.Logging": "10.0.15",
+      "Microsoft.JSInterop.WebAssembly": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.AspNetCore.Components.WebAssembly.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.AspNetCore.Metadata/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net10.0/Microsoft.AspNetCore.Metadata.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Configuration/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Configuration.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Configuration.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Configuration.Abstractions/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Configuration.Binder/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Configuration": "10.0.15",
+      "Microsoft.Extensions.Configuration.Abstractions": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Configuration.Binder.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Configuration.FileExtensions/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Configuration": "10.0.15",
+      "Microsoft.Extensions.Configuration.Abstractions": "10.0.15",
+      "Microsoft.Extensions.FileProviders.Abstractions": "10.0.15",
+      "Microsoft.Extensions.FileProviders.Physical": "10.0.15",
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Configuration.Json/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Configuration": "10.0.15",
+      "Microsoft.Extensions.Configuration.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Configuration.FileExtensions": "10.0.15",
+      "Microsoft.Extensions.FileProviders.Abstractions": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Configuration.Json.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.DependencyInjection/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Diagnostics/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Configuration": "10.0.15",
+      "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Options.ConfigurationExtensions": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Diagnostics.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Diagnostics.Abstractions/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Options": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.FileProviders.Abstractions/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.FileProviders.Physical/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.FileProviders.Abstractions": "10.0.15",
+      "Microsoft.Extensions.FileSystemGlobbing": "10.0.15",
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.FileProviders.Physical.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.FileSystemGlobbing/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Logging/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection": "10.0.15",
+      "Microsoft.Extensions.Logging.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Options": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Logging.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Logging.Abstractions/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Logging.Abstractions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Options/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Options.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Options.ConfigurationExtensions/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.Configuration.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Configuration.Binder": "10.0.15",
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Options": "10.0.15",
+      "Microsoft.Extensions.Primitives": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Primitives/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Primitives.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.Extensions.Validation/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.15",
+      "Microsoft.Extensions.Options": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.Extensions.Validation.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.JSInterop/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net10.0/Microsoft.JSInterop.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.JSInterop.WebAssembly/10.0.15": {
+    "type": "package",
+    "dependencies": {
+      "Microsoft.JSInterop": "10.0.15"
+    },
+    "runtime": [
+      "lib/net10.0/Microsoft.JSInterop.WebAssembly.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.NET.ILLink.Tasks/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "Microsoft.NET.Sdk.WebAssembly.Pack/10.0.15": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "SharpZipLib/1.4.2": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net6.0/ICSharpCode.SharpZipLib.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "System.CommandLine/2.0.0-beta4.22272.1": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net6.0/System.CommandLine.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "System.Text.Encoding.CodePages/10.0.7": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net10.0/_._"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "UTF.Unknown/2.5.1": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/netcoreapp3.0/UtfUnknown.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "ZstdSharp.Port/0.8.8": {
+    "type": "package",
+    "dependencies": {},
+    "runtime": [
+      "lib/net9.0/ZstdSharp.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "ImeWlConverter.Abstractions/1.0.0": {
+    "type": "project",
+    "dependencies": {},
+    "runtime": [
+      "bin/placeholder/ImeWlConverter.Abstractions.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "ImeWlConverter.Application/1.0.0": {
+    "type": "project",
+    "dependencies": {
+      "ImeWlConverter.Abstractions": "1.0.0",
+      "ImeWlConverter.Core": "1.0.0",
+      "ImeWlConverter.Formats": "1.0.0",
+      "Microsoft.Extensions.DependencyInjection": "10.0.7",
+      "System.CommandLine": "2.0.0-beta4.22272.1"
+    },
+    "runtime": [
+      "bin/placeholder/ImeWlConverter.Application.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "ImeWlConverter.CodeData/1.0.0": {
+    "type": "project",
+    "dependencies": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
+    },
+    "runtime": [
+      "bin/placeholder/ImeWlConverter.CodeData.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "ImeWlConverter.Core/1.0.0": {
+    "type": "project",
+    "dependencies": {
+      "ImeWlConverter.Abstractions": "1.0.0",
+      "ImeWlConverter.CodeData": "1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+      "SharpZipLib": "1.4.2",
+      "UTF.Unknown": "2.5.1"
+    },
+    "runtime": [
+      "bin/placeholder/ImeWlConverter.Core.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  },
+  "ImeWlConverter.Formats/1.0.0": {
+    "type": "project",
+    "dependencies": {
+      "ImeWlConverter.Abstractions": "1.0.0",
+      "ImeWlConverter.CodeData": "1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
+      "SharpZipLib": "1.4.2",
+      "ZstdSharp.Port": "0.8.8"
+    },
+    "runtime": [
+      "bin/placeholder/ImeWlConverter.Formats.dll"
+    ],
+    "native": [],
+    "runtimeTargets": {}
+  }
+}

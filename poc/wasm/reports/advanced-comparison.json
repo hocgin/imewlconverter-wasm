@@ -1,0 +1,50 @@
+{
+  "chromium": {
+    "sameAsNative": true,
+    "checkCount": 19,
+    "exceptions": [],
+    "knownIncorrectContent": [
+      {
+        "name": "word_import_Big5",
+        "status": "executed",
+        "detail": {
+          "expected": "中國",
+          "actual": "い瓣",
+          "correct": false
+        }
+      }
+    ]
+  },
+  "firefox": {
+    "sameAsNative": true,
+    "checkCount": 19,
+    "exceptions": [],
+    "knownIncorrectContent": [
+      {
+        "name": "word_import_Big5",
+        "status": "executed",
+        "detail": {
+          "expected": "中國",
+          "actual": "い瓣",
+          "correct": false
+        }
+      }
+    ]
+  },
+  "safari": {
+    "sameAsNative": true,
+    "checkCount": 19,
+    "exceptions": [],
+    "knownIncorrectContent": [
+      {
+        "name": "word_import_Big5",
+        "status": "executed",
+        "detail": {
+          "expected": "中國",
+          "actual": "い瓣",
+          "correct": false
+        }
+      }
+    ]
+  }
+}

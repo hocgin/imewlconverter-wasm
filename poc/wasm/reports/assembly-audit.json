@@ -1,0 +1,131 @@
+[
+  {
+    "assembly": "ImeWlConverter.Core.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "ImeWlConverter.CodeData.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "UtfUnknown.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "ImeWlConverter.Application.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "Microsoft.Extensions.DependencyInjection.dll",
+    "nativeImports": [],
+    "interestingReferences": [
+      "System.Linq.Expressions.ExpressionVisitor.Visit",
+      "System.Linq.Expressions.Expression.Block",
+      "System.Linq.Expressions.Expression.Lambda",
+      "System.Linq.Expressions.Expression.Constant",
+      "System.Linq.Expressions.Expression.Invoke",
+      "System.Linq.Expressions.Expression.New",
+      "System.Linq.Expressions.Expression.Convert",
+      "System.Linq.Expressions.Expression.get_Type",
+      "System.Linq.Expressions.Expression.Call",
+      "System.Linq.Expressions.Expression.Variable",
+      "System.Linq.Expressions.Expression.Assign",
+      "System.Linq.Expressions.Expression.Not",
+      "System.Linq.Expressions.Expression.IfThen",
+      "System.Linq.Expressions.Expression.Property",
+      "System.Linq.Expressions.Expression.TryFinally",
+      "System.Linq.Expressions.Expression.Condition",
+      "System.Linq.Expressions.Expression.Parameter",
+      "System.Linq.Expressions.Expression.NewArrayInit",
+      "System.Reflection.Emit.DynamicMethod..ctor",
+      "System.Reflection.Emit.DynamicMethod.GetILGenerator",
+      "System.Reflection.Emit.ILGenerator.get_ILOffset",
+      "System.Reflection.Emit.OpCodes.Unbox_Any",
+      "System.Reflection.Emit.ILGenerator.Emit",
+      "System.Reflection.Emit.OpCodes.Newobj",
+      "System.Reflection.Emit.OpCodes.Box",
+      "System.Reflection.Emit.OpCodes.Ldarg_1",
+      "System.Reflection.Emit.OpCodes.Call",
+      "System.Reflection.Emit.OpCodes.Ldc_I4",
+      "System.Reflection.Emit.OpCodes.Newarr",
+      "System.Reflection.Emit.OpCodes.Dup",
+      "System.Reflection.Emit.OpCodes.Stelem",
+      "System.Reflection.Emit.OpCodes.Ldarg_0",
+      "System.Reflection.Emit.OpCodes.Ldfld",
+      "System.Reflection.Emit.OpCodes.Ldelem",
+      "System.Reflection.Emit.OpCodes.Ldtoken",
+      "System.Reflection.Emit.ILGenerator.DeclareLocal",
+      "System.Reflection.Emit.ILGenerator.DefineLabel",
+      "System.Reflection.Emit.OpCodes.Callvirt",
+      "System.Reflection.Emit.OpCodes.Brfalse_S",
+      "System.Reflection.Emit.OpCodes.Ret",
+      "System.Reflection.Emit.ILGenerator.MarkLabel",
+      "System.Reflection.Emit.OpCodes.Stloc",
+      "System.Reflection.Emit.ILGenerator.BeginExceptionBlock",
+      "System.Reflection.Emit.OpCodes.Ldloc",
+      "System.Reflection.Emit.OpCodes.Ldloca",
+      "System.Reflection.Emit.OpCodes.Brtrue",
+      "System.Reflection.Emit.OpCodes.Pop",
+      "System.Reflection.Emit.ILGenerator.BeginFinallyBlock",
+      "System.Reflection.Emit.OpCodes.Brfalse",
+      "System.Reflection.Emit.ILGenerator.EndExceptionBlock",
+      "System.Linq.Expressions.ExpressionVisitor..ctor"
+    ]
+  },
+  {
+    "assembly": "ImeWlConverter.Formats.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "ICSharpCode.SharpZipLib.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "Baseline.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "System.CommandLine.dll",
+    "nativeImports": [],
+    "interestingReferences": [
+      "System.Diagnostics.Process.Start"
+    ]
+  },
+  {
+    "assembly": "Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+    "nativeImports": [],
+    "interestingReferences": [
+      "System.Linq.Expressions.Expression.Lambda",
+      "System.Linq.Expressions.Expression.Parameter",
+      "System.Linq.Expressions.Expression.Constant",
+      "System.Linq.Expressions.Expression.ArrayAccess",
+      "System.Linq.Expressions.Expression.Call",
+      "System.Linq.Expressions.Expression.Coalesce",
+      "System.Linq.Expressions.Expression.Convert",
+      "System.Linq.Expressions.Expression.Equal",
+      "System.Linq.Expressions.Expression.Throw",
+      "System.Linq.Expressions.Expression.IfThen",
+      "System.Linq.Expressions.Expression.New",
+      "System.Linq.Expressions.Expression.Block"
+    ]
+  },
+  {
+    "assembly": "ImeWlConverter.Abstractions.dll",
+    "nativeImports": [],
+    "interestingReferences": []
+  },
+  {
+    "assembly": "ZstdSharp.dll",
+    "nativeImports": [],
+    "interestingReferences": [
+      "System.Threading.Thread.Start"
+    ]
+  }
+]

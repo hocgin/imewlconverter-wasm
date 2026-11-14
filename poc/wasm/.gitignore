@@ -1,0 +1,10 @@
+bin/
+obj/
+artifacts/
+baseline/bin/
+baseline/obj/
+reports/*bench*.dict.yaml
+reports/*multifile.dict.yaml
+reports/firefox-downloads/
+__pycache__/
+reports/firefox-memory/firefox-downloads/

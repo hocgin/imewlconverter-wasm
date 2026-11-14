@@ -1,0 +1,368 @@
+{
+  "metrics": {
+    "loadMs": 286,
+    "resourceBytes": 12580812,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "errors": [],
+    "jsHeap": 32077618,
+    "wasmLinearBytes": 48365568,
+    "longTaskCount": 1,
+    "maxLongTaskMs": 93
+  },
+  "transferBytes": 12601512,
+  "runtime": {
+    "productVersion": "10.0.15",
+    "gitHash": "8e0f8ed2312954727f8919d7d1c2f78b483b4ee7",
+    "buildConfiguration": "Release",
+    "wasmEnableThreads": false,
+    "wasmEnableSIMD": true,
+    "wasmEnableExceptionHandling": true
+  },
+  "requests": [
+    {
+      "url": "http://127.0.0.1:8765/poc.js",
+      "encoded": 1242,
+      "transfer": 1542
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/blazor.webassembly.js",
+      "encoded": 60682,
+      "transfer": 60982
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/dotnet.js",
+      "encoded": 59939,
+      "transfer": 60239
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/dotnet.runtime.v2rwe8u38b.js",
+      "encoded": 197975,
+      "transfer": 198275
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/dotnet.native.6ilbvndvcf.js",
+      "encoded": 145050,
+      "transfer": 145350
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/dotnet.native.3bptkeu1pi.wasm",
+      "encoded": 3002122,
+      "transfer": 3002422
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Runtime.InteropServices.JavaScript.vs9238bmr6.wasm",
+      "encoded": 43797,
+      "transfer": 44097
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ICSharpCode.SharpZipLib.zquy7dfugm.wasm",
+      "encoded": 84245,
+      "transfer": 84545
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Private.CoreLib.58w0p5tyu5.wasm",
+      "encoded": 1818901,
+      "transfer": 1819201
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ImeWlConverter.Abstractions.m0soacvmhv.wasm",
+      "encoded": 38677,
+      "transfer": 38977
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ImeWlConverter.Application.kxaq8oemjp.wasm",
+      "encoded": 61205,
+      "transfer": 61505
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ImeWlConverter.Core.s8pfzfbp1a.wasm",
+      "encoded": 110357,
+      "transfer": 110657
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ImeWlConverter.Formats.g0lzy3gk8q.wasm",
+      "encoded": 278805,
+      "transfer": 279105
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ImeWlConverter.CodeData.19gojaguac.wasm",
+      "encoded": 2209049,
+      "transfer": 2209349
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.AspNetCore.Components.4prd5yi4ad.wasm",
+      "encoded": 184597,
+      "transfer": 184897
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.AspNetCore.Components.Web.pbyvr1o52s.wasm",
+      "encoded": 66837,
+      "transfer": 67137
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Configuration.Abstractions.3lgtxxm3jb.wasm",
+      "encoded": 6933,
+      "transfer": 7233
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.AspNetCore.Components.WebAssembly.hxidvmy7lo.wasm",
+      "encoded": 122133,
+      "transfer": 122433
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Configuration.Json.2673pa34ah.wasm",
+      "encoded": 10517,
+      "transfer": 10817
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Configuration.m57ujhbjop.wasm",
+      "encoded": 8981,
+      "transfer": 9281
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.ven9drmu26.wasm",
+      "encoded": 26389,
+      "transfer": 26689
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Logging.Abstractions.gndqmhmb02.wasm",
+      "encoded": 27413,
+      "transfer": 27713
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.DependencyInjection.ln6z71l9jj.wasm",
+      "encoded": 46869,
+      "transfer": 47169
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Logging.6rc2jziest.wasm",
+      "encoded": 17685,
+      "transfer": 17985
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Options.7nw7k4frmi.wasm",
+      "encoded": 16661,
+      "transfer": 16961
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.Extensions.Primitives.r0c30bslaw.wasm",
+      "encoded": 8981,
+      "transfer": 9281
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.JSInterop.WebAssembly.igy9hupfat.wasm",
+      "encoded": 12053,
+      "transfer": 12353
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/Microsoft.JSInterop.rb1a9nzsfy.wasm",
+      "encoded": 47893,
+      "transfer": 48193
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Collections.txbrvhwsmr.wasm",
+      "encoded": 27413,
+      "transfer": 27713
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Collections.Concurrent.3aw184js60.wasm",
+      "encoded": 28949,
+      "transfer": 29249
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Collections.NonGeneric.ba9hc040xb.wasm",
+      "encoded": 11541,
+      "transfer": 11841
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Collections.Immutable.b9di6fvom2.wasm",
+      "encoded": 55061,
+      "transfer": 55361
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.ComponentModel.Primitives.alorgfp9u8.wasm",
+      "encoded": 8981,
+      "transfer": 9281
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.ComponentModel.TypeConverter.6pilhedea4.wasm",
+      "encoded": 5397,
+      "transfer": 5697
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.CommandLine.bzxri1h9s8.wasm",
+      "encoded": 148757,
+      "transfer": 149057
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.ComponentModel.s232flgnjt.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Console.o5q37w2x4d.wasm",
+      "encoded": 17685,
+      "transfer": 17985
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Diagnostics.DiagnosticSource.wi2m9kb6j2.wasm",
+      "encoded": 40213,
+      "transfer": 40513
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Diagnostics.Process.9xq1sw93mx.wasm",
+      "encoded": 7957,
+      "transfer": 8257
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.IO.Compression.dl33m2jzq6.wasm",
+      "encoded": 29973,
+      "transfer": 30273
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.IO.Pipelines.mpr9yuumcl.wasm",
+      "encoded": 5909,
+      "transfer": 6209
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Memory.cjpm8b2rso.wasm",
+      "encoded": 14613,
+      "transfer": 14913
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Linq.gx0yrl3ne4.wasm",
+      "encoded": 71445,
+      "transfer": 71745
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Net.Http.dussrhdj4v.wasm",
+      "encoded": 143125,
+      "transfer": 143425
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.IO.FileSystem.6zsrm8mqqx.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Net.Primitives.0kxjm3azr0.wasm",
+      "encoded": 28437,
+      "transfer": 28737
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.ObjectModel.cpkfv2suck.wasm",
+      "encoded": 5909,
+      "transfer": 6209
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Private.Uri.ggkcy4lns0.wasm",
+      "encoded": 67861,
+      "transfer": 68161
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Runtime.Intrinsics.x52df782yc.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Resources.ResourceManager.hmpa19si6x.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Runtime.InteropServices.45u1sj8k39.wasm",
+      "encoded": 8981,
+      "transfer": 9281
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Private.Xml.0h9cfyxabi.wasm",
+      "encoded": 503573,
+      "transfer": 503873
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Runtime.Extensions.ljiw311n65.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Runtime.Serialization.Formatters.fghgemmr3i.wasm",
+      "encoded": 5397,
+      "transfer": 5697
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Runtime.h5297b3i3f.wasm",
+      "encoded": 11029,
+      "transfer": 11329
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Security.Cryptography.rf2gmnm62a.wasm",
+      "encoded": 36117,
+      "transfer": 36417
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Text.Encoding.Extensions.mo66izveyc.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Text.Encoding.CodePages.horyj4auau.wasm",
+      "encoded": 698645,
+      "transfer": 698945
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Text.RegularExpressions.kur7jxo141.wasm",
+      "encoded": 161045,
+      "transfer": 161345
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Text.Encodings.Web.kd8pjw8jwj.wasm",
+      "encoded": 29461,
+      "transfer": 29761
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Text.Json.88b20ae2su.wasm",
+      "encoded": 375061,
+      "transfer": 375361
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Threading.Thread.gi0w2gelhp.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Xml.ReaderWriter.c22lv01u4c.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.Threading.q5vyyfe0x8.wasm",
+      "encoded": 12053,
+      "transfer": 12353
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/System.bzv2fdl90t.wasm",
+      "encoded": 4885,
+      "transfer": 5185
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/UtfUnknown.ondkaf9qr7.wasm",
+      "encoded": 250645,
+      "transfer": 250945
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/WasmPoc.vigstoys2k.wasm",
+      "encoded": 62229,
+      "transfer": 62529
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/ZstdSharp.16l88inodj.wasm",
+      "encoded": 396565,
+      "transfer": 396865
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/icudt_EFIGS.tptq2av103.dat",
+      "encoded": 550832,
+      "transfer": 551132
+    }
+  ]
+}

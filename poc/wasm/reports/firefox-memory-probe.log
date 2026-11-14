@@ -1,0 +1,102 @@
+{
+  "exitCode": 0,
+  "samplingTargetMs": 100,
+  "actualMeanIntervalMs": 126.01942717098694,
+  "maxIntervalMs": 144.45854199584574,
+  "browserPID": 13605,
+  "samples": 235,
+  "scope": "one new temporary Firefox profile, browser PID plus current OS PPID descendants; geckodriver and unrelated apps excluded",
+  "metric": "sampled sum of per-process RSS, shared pages may be counted more than once; not unique physical footprint or exact continuous peak",
+  "peaks": {
+    "initial/load": {
+      "elapsedMs": 2484.4282919657417,
+      "case": "initial",
+      "phase": "load",
+      "browserPID": 13605,
+      "processCount": 7,
+      "summedRSSBytes": 1500659712,
+      "rootRSSBytes": 527876096
+    },
+    "SCEL/convert_and_download": {
+      "elapsedMs": 2870.7994999713264,
+      "case": "SCEL",
+      "phase": "convert_and_download",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 1928970240,
+      "rootRSSBytes": 539066368
+    },
+    "advanced/checks": {
+      "elapsedMs": 3377.3404589737765,
+      "case": "advanced",
+      "phase": "checks",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 2011594752,
+      "rootRSSBytes": 590479360
+    },
+    "1MB/load": {
+      "elapsedMs": 3633.7202499853447,
+      "case": "1MB",
+      "phase": "load",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 2095759360,
+      "rootRSSBytes": 558432256
+    },
+    "1MB/convert_and_download": {
+      "elapsedMs": 4524.774959019851,
+      "case": "1MB",
+      "phase": "convert_and_download",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 2143387648,
+      "rootRSSBytes": 589381632
+    },
+    "10MB/load": {
+      "elapsedMs": 4780.738750007004,
+      "case": "10MB",
+      "phase": "load",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 2243887104,
+      "rootRSSBytes": 587776000
+    },
+    "10MB/convert_and_download": {
+      "elapsedMs": 9937.689542013686,
+      "case": "10MB",
+      "phase": "convert_and_download",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 2772992000,
+      "rootRSSBytes": 861896704
+    },
+    "50MB/load": {
+      "elapsedMs": 10190.309375000652,
+      "case": "50MB",
+      "phase": "load",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 2874966016,
+      "rootRSSBytes": 843530240
+    },
+    "50MB/convert_and_download": {
+      "elapsedMs": 31338.705124973785,
+      "case": "50MB",
+      "phase": "convert_and_download",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 3789111296,
+      "rootRSSBytes": 667156480
+    },
+    "cleanup/close": {
+      "elapsedMs": 31589.622500003316,
+      "case": "cleanup",
+      "phase": "close",
+      "browserPID": 13605,
+      "processCount": 10,
+      "summedRSSBytes": 3594567680,
+      "rootRSSBytes": 673267712
+    }
+  }
+}

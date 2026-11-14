@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "jsHeap": null,
+  "loadMs": 349,
+  "longTaskCount": 0,
+  "maxLongTaskMs": 0,
+  "resourceBytes": 12581272,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:160.0) Gecko/20100101 Firefox/160.0",
+  "wasmLinearBytes": 48365568
+}

@@ -1,0 +1,1015 @@
+{
+  "metrics": {
+    "loadMs": 260.30000001192093,
+    "resourceBytes": 12578762,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "errors": [],
+    "jsHeap": 31180444
+  },
+  "formats": {
+    "importers": [
+      {
+        "Id": "bcd",
+        "DisplayName": "百度手机bcd",
+        "SortOrder": 1020,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdict",
+        "DisplayName": "百度分类词库bdict",
+        "SortOrder": 100,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdpy",
+        "DisplayName": "百度拼音",
+        "SortOrder": 90,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdpybin",
+        "DisplayName": "百度拼音备份词库bin",
+        "SortOrder": 20,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdsj",
+        "DisplayName": "百度手机或Mac版百度拼音",
+        "SortOrder": 1000,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdsje",
+        "DisplayName": "百度手机英文",
+        "SortOrder": 1010,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bing",
+        "DisplayName": "必应输入法",
+        "SortOrder": 135,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "cjpt",
+        "DisplayName": "仓颉平台",
+        "SortOrder": 230,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "cysl",
+        "DisplayName": "超音速录",
+        "SortOrder": 190,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "pyim",
+        "DisplayName": "Chinese-pyim",
+        "SortOrder": 177,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "emoji",
+        "DisplayName": "Emoji",
+        "SortOrder": 999,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "fit",
+        "DisplayName": "FIT输入法",
+        "SortOrder": 140,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "gboard",
+        "DisplayName": "Gboard",
+        "SortOrder": 111,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "gboardbin",
+        "DisplayName": "Gboard user_dict_3_3",
+        "SortOrder": 112,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".dict",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "ggpy",
+        "DisplayName": "谷歌拼音",
+        "SortOrder": 110,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "ifly",
+        "DisplayName": "讯飞输入法",
+        "SortOrder": 1050,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "jd",
+        "DisplayName": "极点五笔",
+        "SortOrder": 190,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "jdzm",
+        "DisplayName": "极点郑码",
+        "SortOrder": 190,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "jdmb",
+        "DisplayName": "极点五笔.mb文件",
+        "SortOrder": 190,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "libimebin",
+        "DisplayName": "LibIME 拼音词库（二进制）",
+        "SortOrder": 501,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".dict",
+        "DefaultFileName": "sc"
+      },
+      {
+        "Id": "libimetxt",
+        "DisplayName": "LibIME 拼音词库（文本格式）",
+        "SortOrder": 500,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "libpy",
+        "DisplayName": "libpinyin",
+        "SortOrder": 175,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "ld2",
+        "DisplayName": "灵格斯ld2",
+        "SortOrder": 200,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "plist",
+        "DisplayName": "Mac简体拼音",
+        "SortOrder": 150,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "mspy",
+        "DisplayName": "微软拼音",
+        "SortOrder": 135,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "word",
+        "DisplayName": "无拼音纯汉字",
+        "SortOrder": 2010,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "pyjj",
+        "DisplayName": "拼音加加",
+        "SortOrder": 120,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qingjiantsv",
+        "DisplayName": "青简 TSV",
+        "SortOrder": 160,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".tsv",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qj",
+        "DisplayName": "青简词库（.qj）",
+        "SortOrder": 161,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".qj",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqpy",
+        "DisplayName": "QQ拼音",
+        "SortOrder": 50,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqpye",
+        "DisplayName": "QQ拼音英文",
+        "SortOrder": 80,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qcel",
+        "DisplayName": "QQ分类词库qcel",
+        "SortOrder": 60,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qpyd",
+        "DisplayName": "QQ分类词库qpyd",
+        "SortOrder": 60,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqsj",
+        "DisplayName": "QQ手机",
+        "SortOrder": 1030,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "rime",
+        "DisplayName": "Rime中州韵",
+        "SortOrder": 150,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "rimedb",
+        "DisplayName": "Rime UserDb 用户词典",
+        "SortOrder": 150,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "self",
+        "DisplayName": "自定义",
+        "SortOrder": 2000,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "sxpy",
+        "DisplayName": "手心输入法",
+        "SortOrder": 180,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "xlpy",
+        "DisplayName": "新浪拼音",
+        "SortOrder": 180,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "sgpybin",
+        "DisplayName": "搜狗拼音备份词库bin",
+        "SortOrder": 30,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "sgpy",
+        "DisplayName": "搜狗拼音txt",
+        "SortOrder": 10,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "scel",
+        "DisplayName": "搜狗细胞词库scel",
+        "SortOrder": 20,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "win10mspy",
+        "DisplayName": "Win10微软拼音（用户自定义短语）",
+        "SortOrder": 130,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "win10mswb",
+        "DisplayName": "Win10微软五笔（用户自定义短语）",
+        "SortOrder": 131,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "win10mspyss",
+        "DisplayName": "Win10微软拼音（自学习词汇）",
+        "SortOrder": 130,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqwb",
+        "DisplayName": "QQ五笔",
+        "SortOrder": 70,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "wb86",
+        "DisplayName": "五笔86版",
+        "SortOrder": 210,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "wb98",
+        "DisplayName": "五笔98版",
+        "SortOrder": 220,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "wbnewage",
+        "DisplayName": "五笔新世纪版",
+        "SortOrder": 221,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "xywb",
+        "DisplayName": "小鸭五笔",
+        "SortOrder": 191,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "xiaoxiao",
+        "DisplayName": "小小输入法",
+        "SortOrder": 100,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "yahoo",
+        "DisplayName": "雅虎奇摩",
+        "SortOrder": 200,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "zgpy",
+        "DisplayName": "华宇紫光拼音",
+        "SortOrder": 170,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "uwl",
+        "DisplayName": "紫光拼音词库uwl",
+        "SortOrder": 171,
+        "SupportsImport": true,
+        "SupportsExport": false,
+        "IsBinary": true,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      }
+    ],
+    "exporters": [
+      {
+        "Id": "bdpy",
+        "DisplayName": "百度拼音",
+        "SortOrder": 90,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdsj",
+        "DisplayName": "百度手机或Mac版百度拼音",
+        "SortOrder": 1000,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bdsje",
+        "DisplayName": "百度手机英文",
+        "SortOrder": 1010,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "bing",
+        "DisplayName": "必应输入法",
+        "SortOrder": 135,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "cjpt",
+        "DisplayName": "仓颉平台",
+        "SortOrder": 230,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "cysl",
+        "DisplayName": "超音速录",
+        "SortOrder": 190,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "pyim",
+        "DisplayName": "Chinese-pyim",
+        "SortOrder": 177,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "fit",
+        "DisplayName": "FIT输入法",
+        "SortOrder": 140,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "gboard",
+        "DisplayName": "Gboard",
+        "SortOrder": 111,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "gboardbin",
+        "DisplayName": "Gboard user_dict_3_3",
+        "SortOrder": 112,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".dict",
+        "DefaultFileName": "user_dict_3_3"
+      },
+      {
+        "Id": "ggpy",
+        "DisplayName": "谷歌拼音",
+        "SortOrder": 110,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "ifly",
+        "DisplayName": "讯飞输入法",
+        "SortOrder": 1050,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "jd",
+        "DisplayName": "极点五笔",
+        "SortOrder": 190,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "jdzm",
+        "DisplayName": "极点郑码",
+        "SortOrder": 190,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "libimebin",
+        "DisplayName": "LibIME 拼音词库（二进制）",
+        "SortOrder": 501,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".dict",
+        "DefaultFileName": "sc"
+      },
+      {
+        "Id": "libimetxt",
+        "DisplayName": "LibIME 拼音词库（文本格式）",
+        "SortOrder": 500,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "libpy",
+        "DisplayName": "libpinyin",
+        "SortOrder": 175,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "plist",
+        "DisplayName": "Mac简体拼音",
+        "SortOrder": 150,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "mspy",
+        "DisplayName": "微软拼音",
+        "SortOrder": 135,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".dctx",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "word",
+        "DisplayName": "无拼音纯汉字",
+        "SortOrder": 2010,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "pyjj",
+        "DisplayName": "拼音加加",
+        "SortOrder": 120,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qingjiantsv",
+        "DisplayName": "青简 TSV",
+        "SortOrder": 160,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".tsv",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qj",
+        "DisplayName": "青简词库（.qj）",
+        "SortOrder": 161,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".qj",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqpy",
+        "DisplayName": "QQ拼音",
+        "SortOrder": 50,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqpye",
+        "DisplayName": "QQ拼音英文",
+        "SortOrder": 80,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqsj",
+        "DisplayName": "QQ手机",
+        "SortOrder": 1030,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "rime",
+        "DisplayName": "Rime中州韵",
+        "SortOrder": 150,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "self",
+        "DisplayName": "自定义",
+        "SortOrder": 2000,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "sxpy",
+        "DisplayName": "手心输入法",
+        "SortOrder": 180,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "xlpy",
+        "DisplayName": "新浪拼音",
+        "SortOrder": 180,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "sgpybin",
+        "DisplayName": "搜狗拼音备份词库bin",
+        "SortOrder": 30,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".bin",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "sgpy",
+        "DisplayName": "搜狗拼音txt",
+        "SortOrder": 10,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "scel",
+        "DisplayName": "搜狗细胞词库scel",
+        "SortOrder": 20,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".scel",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "dy",
+        "DisplayName": "用户自定义短语",
+        "SortOrder": 110,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "win10mspy",
+        "DisplayName": "Win10微软拼音（用户自定义短语）",
+        "SortOrder": 130,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".dat",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "win10mswb",
+        "DisplayName": "Win10微软五笔（用户自定义短语）",
+        "SortOrder": 131,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".dat",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "win10mspyss",
+        "DisplayName": "Win10微软拼音（自学习词汇）",
+        "SortOrder": 130,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": true,
+        "FileExtension": ".dat",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "qqwb",
+        "DisplayName": "QQ五笔",
+        "SortOrder": 70,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "wb86",
+        "DisplayName": "五笔86版",
+        "SortOrder": 210,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "wb98",
+        "DisplayName": "五笔98版",
+        "SortOrder": 220,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "wbnewage",
+        "DisplayName": "五笔新世纪版",
+        "SortOrder": 221,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "xywb",
+        "DisplayName": "小鸭五笔",
+        "SortOrder": 191,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "erbi",
+        "DisplayName": "二笔输入法",
+        "SortOrder": 100,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "xiaoxiao",
+        "DisplayName": "小小输入法",
+        "SortOrder": 100,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "yahoo",
+        "DisplayName": "雅虎奇摩",
+        "SortOrder": 200,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      },
+      {
+        "Id": "zgpy",
+        "DisplayName": "华宇紫光拼音",
+        "SortOrder": 170,
+        "SupportsImport": false,
+        "SupportsExport": true,
+        "IsBinary": false,
+        "FileExtension": ".txt",
+        "DefaultFileName": null
+      }
+    ]
+  }
+}

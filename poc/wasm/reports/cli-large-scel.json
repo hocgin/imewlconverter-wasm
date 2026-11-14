@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "ok": true,
+  "result": {
+    "imported": 342179,
+    "exported": 342179,
+    "filtered": 0,
+    "outputs": [
+      {
+        "path": "/tmp/imewl-poetry.dict.yaml",
+        "entries": 342179
+      }
+    ],
+    "errors": []
+  }
+}

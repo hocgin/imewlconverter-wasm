@@ -1,0 +1,28 @@
+{
+  "browser": "Safari 27.0",
+  "interaction": "native Safari UI via cua_repl; actual InputFile chooser and Blob download",
+  "inputBytes": 157720,
+  "imported": 3563,
+  "exported": 3563,
+  "exportErrors": 0,
+  "importErrors": [],
+  "engineElapsedMs": 70,
+  "managedLiveBytesAfter": 7480136,
+  "managedHeapBytesAfter": 3492864,
+  "downloadBytes": 160107,
+  "outputSHA256": "121f98089974131e786e9a334450ce14b789f767e05cc095a4e44a379fd84e3b",
+  "cliSHA256": "121f98089974131e786e9a334450ce14b789f767e05cc095a4e44a379fd84e3b",
+  "byteEqualToCLI": true,
+  "consoleErrors": [
+    {
+      "url": "http://127.0.0.1:8765/favicon.ico",
+      "status": 404,
+      "message": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "url": "http://127.0.0.1:8765/_framework/dotnet.runtime.js.map",
+      "status": 404,
+      "message": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+@inject StreamConverter Converter
+@inject IJSRuntime JS
+@using System.Text.Json
+@using ImeWlConverter.Abstractions.Options
+@using ImeWlConverter.Abstractions.Enums
+@using ImeWlConverter.Application.FormatDetection
+<h1>imewlconverter .NET 10 WebAssembly PoC</h1>
+<p id="initialized">Importers: @Converter.Importers.Length / Exporters: @Converter.Exporters.Length</p>
+<p>所有转换在浏览器执行。TXT 指无拼音逐行词表；Rime 输出为原引擎 TSV，无 YAML 头。</p>
+<InputFile OnChange="SelectFiles" multiple />
+<p>@string.Join(", ", files.Select(f => $"{f.Name} ({f.Size} bytes)"))</p>
+<label>输入 <select id="input-format" @bind="from">@foreach(var f in Converter.Importers){<option value="@f.Metadata.Id">@f.Metadata.Id — @f.Metadata.DisplayName</option>}</select></label>
+<label>输出 <select id="output-format" @bind="to">@foreach(var f in Converter.Exporters){<option value="@f.Metadata.Id">@f.Metadata.Id — @f.Metadata.DisplayName</option>}</select></label>
+<label>生成编码 <select id="code" @bind="code"><option value="NoCode">保留原编码</option><option value="Pinyin">拼音</option><option value="Wubi86">五笔86</option></select></label>
+<p><button id="convert" disabled="@busy" @onclick="Convert">开始转换（多文件合并）</button> <button id="cancel" @onclick="Cancel">取消</button> <button id="download" disabled="@(result is null)" @onclick="Download">下载转换文件</button> <button id="advanced" disabled="@busy" @onclick="Advanced">运行高级自检</button></p>
+<p id="progress">@status</p>
+<pre id="result">@json</pre><pre id="errors">@error</pre>
+<details><summary>已注册格式</summary><pre id="formats">@FormatList</pre></details>
+@code {
+ IReadOnlyList<IBrowserFile> files = []; string from="scel",to="rime",code="NoCode";
+ string status="Ready",json="",error=""; bool busy; ConversionOutput? result; CancellationTokenSource? cts;
+ string FormatList => JsonSerializer.Serialize(new {importers=Converter.Importers.Select(x=>x.Metadata),exporters=Converter.Exporters.Select(x=>x.Metadata)});
+ protected override async Task OnAfterRenderAsync(bool first){if(first)await JS.InvokeVoidAsync("pocReady");}
+ void SelectFiles(InputFileChangeEventArgs e){files=e.GetMultipleFiles(100);var detected=new FormatDetectionService(Converter.Importers).DetectByExtension(files[0].Name);if(detected is not null && !files[0].Name.EndsWith(".txt"))from=detected;}
+ async Task Convert(){busy=true;error="";json="";result=null;cts=new();var streams=new List<Stream>();try{
+   foreach(var f in files){await using var browser=f.OpenReadStream(100*1024*1024,cts.Token);var memory=new MemoryStream();await browser.CopyToAsync(memory,cts.Token);memory.Position=0;streams.Add(memory);}
+   if(streams.Count==0)throw new InvalidOperationException("请选择本地文件");
+   var options=new ConversionOptions {CodeGeneration=new(){TargetCodeType=Enum.Parse<CodeType>(code)}};
+   result=await Converter.ConvertAsync(streams,from,to,options,progress:new Progress<ImeWlConverter.Abstractions.Models.ProgressInfo>(p=>{if(!busy)return;status=p.Message??"";StateHasChanged();}),ct:cts.Token);
+   json=JsonSerializer.Serialize(new{from,to,inputBytes=files.Sum(f=>f.Size),result.Imported,result.Exported,result.ExportErrors,result.ImportErrors,result.ElapsedMs,result.ManagedLiveBytesAfter,result.ManagedHeapBytesAfter,outputBytes=result.Data.Length,preview=System.Text.Encoding.UTF8.GetString(result.Data.Take(1500).ToArray())},new JsonSerializerOptions{WriteIndented=true});status="Complete";
+ }catch(Exception ex){error=ex.ToString();status=ex is OperationCanceledException?"Cancelled":"Failed";}finally{foreach(var s in streams)s.Dispose();busy=false;}}
+ void Cancel(){cts?.Cancel();}
+ async Task Download(){if(result is null)return;using var stream=new MemoryStream(result.Data);using var reference=new DotNetStreamReference(stream);var ext=to=="rime"?".dict.yaml":Converter.Exporters.Single(x=>x.Metadata.Id==to).Metadata.FileExtension;await JS.InvokeVoidAsync("pocDownload","converted"+ext,reference);}
+ async Task Advanced(){busy=true;try{json=await AdvancedChecks.Run(Converter);status="Advanced complete";}catch(Exception ex){error=ex.ToString();}finally{busy=false;}}
+}

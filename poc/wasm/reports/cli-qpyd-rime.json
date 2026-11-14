@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "ok": true,
+  "result": {
+    "imported": 1657,
+    "exported": 1657,
+    "filtered": 0,
+    "outputs": [
+      {
+        "path": "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-qpyd-rime.dict.yaml",
+        "entries": 1657
+      }
+    ],
+    "errors": []
+  }
+}

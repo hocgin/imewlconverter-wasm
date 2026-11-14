@@ -1,0 +1,14 @@
+{
+  "result": "{\n  \"from\": \"rime\",\n  \"to\": \"gboard\",\n  \"inputBytes\": 298,\n  \"Imported\": 12,\n  \"Exported\": 12,\n  \"ExportErrors\": 0,\n  \"ImportErrors\": [],\n  \"ElapsedMs\": 3.4,\n  \"ManagedLiveBytesAfter\": 19742072,\n  \"ManagedHeapBytesAfter\": 16668800,\n  \"outputBytes\": 243,\n  \"preview\": \"# Gboard Dictionary version:1\\nbuzhichi\\t\\u4E0D\\u652F\\u6301\\tzh-CN\\ncuo\\t\\u932F\\tzh-CN\\njuede\\t\\u89BA\\u5F97\\tzh-CN\\nkankan\\t\\u770B\\u770B\\tzh-CN\\nle\\t\\u4E86\\tzh-CN\\nlijie\\t\\u7406\\u89E3\\tzh-CN\\nni\\t\\u4F60\\tzh-CN\\nnihao\\t\\u4F60\\u597D\\tzh-CN\\nshibushi\\t\\u662F\\u4E0D\\u662F\\tzh-CN\\nta\\t\\u4ED6\\tzh-CN\\nwo\\t\\u6211\\tzh-CN\\nzengyi\\t\\u66FE\\u6BC5\\tzh-CN\\n\"\n}",
+  "error": "",
+  "metrics": {
+    "loadMs": 240.89999997615814,
+    "resourceBytes": 12519631,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "errors": [],
+    "jsHeap": 42016553,
+    "wasmLinearBytes": 83689472,
+    "longTaskCount": 3,
+    "maxLongTaskMs": 115
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "scel-rime",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "scel",
+      "-o",
+      "rime",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-scel-rime.dict.yaml",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/唐诗300首【官方推荐】.scel"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 3563,
+    "browserEntries": 3563
+  },
+  {
+    "name": "rime-scel",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "rime",
+      "-o",
+      "scel",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-rime-scel.scel",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/rime_luna_pinyin_export.txt"
+    ],
+    "exitCode": 0,
+    "byteEqual": false,
+    "semanticEqual": true,
+    "cliEntries": 12,
+    "browserEntries": 12
+  },
+  {
+    "name": "scel-word",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "scel",
+      "-o",
+      "word",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-scel-word.txt",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/唐诗300首【官方推荐】.scel"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 3563,
+    "browserEntries": 3563
+  },
+  {
+    "name": "word-rime",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "word",
+      "-o",
+      "rime",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-word-rime.dict.yaml",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/纯汉字.txt"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 60,
+    "browserEntries": 60
+  },
+  {
+    "name": "gboard-rime",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "gboard",
+      "-o",
+      "rime",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-gboard-rime.dict.yaml",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/GBoard_dictionary.txt"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 2,
+    "browserEntries": 2
+  },
+  {
+    "name": "rime-gboard",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "rime",
+      "-o",
+      "gboard",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-rime-gboard.txt",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/rime_luna_pinyin_export.txt"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 12,
+    "browserEntries": 12
+  },
+  {
+    "name": "gboardbin-rime",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "gboardbin",
+      "-o",
+      "rime",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-gboardbin-rime.dict.yaml",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/gboard_user_dict.dict"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 3,
+    "browserEntries": 3
+  },
+  {
+    "name": "rime-gboardbin",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "rime",
+      "-o",
+      "gboardbin",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-rime-gboardbin.dict",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/rime_luna_pinyin_export.txt"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 12,
+    "browserEntries": 12
+  },
+  {
+    "name": "qpyd-rime",
+    "command": [
+      "/tmp/imewl-dotnet/dotnet",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCmd/bin/Release/net10.0/ImeWlConverterCmd.dll",
+      "-i",
+      "qpyd",
+      "-o",
+      "rime",
+      "-O",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/reports/cli-qpyd-rime.dict.yaml",
+      "--json",
+      "/Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverterCoreTest/Test/成语.qpyd"
+    ],
+    "exitCode": 0,
+    "byteEqual": true,
+    "semanticEqual": true,
+    "cliEntries": 1657,
+    "browserEntries": 1657
+  }
+]

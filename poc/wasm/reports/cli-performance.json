@@ -1,0 +1,23 @@
+[
+  {
+    "mb": 1,
+    "wallMsIncludingProcessStartup": 213.88945798389614,
+    "maxRSSBytes": 88670208,
+    "exitCode": 0,
+    "outputSHA256": "b082f97dc71d4bdf51f621d74d51d6fe5ebee2ba2b4df0abf7e8bf6218dfaf66"
+  },
+  {
+    "mb": 10,
+    "wallMsIncludingProcessStartup": 1055.30666699633,
+    "maxRSSBytes": 271400960,
+    "exitCode": 0,
+    "outputSHA256": "ce208c3bb62538b19bf1805a74006994e789a300784763b25b5e7f5313fe150b"
+  },
+  {
+    "mb": 50,
+    "wallMsIncludingProcessStartup": 4898.310125048738,
+    "maxRSSBytes": 1005780992,
+    "exitCode": 0,
+    "outputSHA256": "c802ee7405b43472d9def730422b05999fb8ccb3757c64bee58670588c9b5405"
+  }
+]

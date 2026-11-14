@@ -1,0 +1,11 @@
+const root=process.env.IMEWL_ROOT || process.cwd();const t=await taskSpace(Number(process.env.EGO_TASK_SPACE_ID || (() => { throw new Error('Set EGO_TASK_SPACE_ID to your current Ego TaskSpace ID'); })())),p=t.page('p1');
+await p.cdp('egoAutomated.disable');await p.cdp('Runtime.enable');await p.cdp('Network.enable');await p.cdp('Network.setCacheDisabled',{cacheDisabled:true});
+await p.reload();await p.waitForSelector('#initialized');
+const state=await p.evaluate(()=>({metrics:pocMetrics(),transferBytes:performance.getEntriesByType('resource').reduce((s,r)=>s+r.transferSize,0),runtime:getDotnetRuntime(0).runtimeBuildInfo,requests:performance.getEntriesByType('resource').map(r=>({url:r.name,encoded:r.encodedBodySize,transfer:r.transferSize}))}));
+await p.setInputFiles('input[type=file]',[root+'/upstream/imewlconverter/src/ImeWlConverterCoreTest/Test/唐诗300首【官方推荐】.scel']);await p.click('#convert');await p.waitForFunction(()=>!!document.querySelector('#result').textContent,undefined,{timeout:60000});
+const allEvents=await p.events();
+const requests=allEvents.filter(e=>e.method==='Network.requestWillBeSent'&&e.params.request.url.startsWith('http://127.0.0.1:8765')).map(e=>({id:e.params.requestId,url:e.params.request.url,method:e.params.request.method,hasPostData:!!e.params.request.hasPostData}));
+const ids=new Set(requests.map(x=>x.id));
+const events={requests,failed:allEvents.filter(e=>e.method==='Network.loadingFailed'&&ids.has(e.params.requestId)),consoleErrors:allEvents.filter(e=>e.method==='Runtime.consoleAPICalled'&&e.params.type==='error'),exceptions:allEvents.filter(e=>e.method==='Runtime.exceptionThrown')};const fs=await import('node:fs/promises');await fs.writeFile(root+'/poc/wasm/reports/chromium-cold-load.json',JSON.stringify(state,null,2));await fs.writeFile(root+'/poc/wasm/reports/chromium-events.json',JSON.stringify(events,null,2));
+console.log(state.metrics);console.log({requests:events.requests.length,methods:[...new Set(events.requests.map(r=>r.method))],failed:events.failed,consoleErrors:events.consoleErrors,exceptions:events.exceptions});
+await p.cdp('Network.setCacheDisabled',{cacheDisabled:false});

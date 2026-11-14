@@ -1,0 +1,15 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  ImeWlConverter.Abstractions -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Abstractions/bin/Release/net10.0/ImeWlConverter.Abstractions.dll
+  ImeWlConverter.CodeData -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.CodeData/bin/Release/net10.0/ImeWlConverter.CodeData.dll
+  ImeWlConverter.Core -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Core/bin/Release/net10.0/ImeWlConverter.Core.dll
+  ImeWlConverter.SourceGenerators -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.SourceGenerators/bin/Release/netstandard2.0/ImeWlConverter.SourceGenerators.dll
+  ImeWlConverter.Formats -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Formats/bin/Release/net10.0/ImeWlConverter.Formats.dll
+  ImeWlConverter.Application -> /Users/hocgin/Projects/_Web/imewlconverter-web/src/ImeWlConverter.Application/bin/Release/net10.0/ImeWlConverter.Application.dll
+  Baseline -> /Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/baseline/bin/Release/net10.0/Baseline.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.69

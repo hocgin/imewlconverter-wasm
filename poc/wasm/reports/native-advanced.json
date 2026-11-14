@@ -1,0 +1,194 @@
+[
+  {
+    "name": "merge_filter_rank_progress",
+    "status": "executed",
+    "detail": {
+      "Imported": 3,
+      "Exported": 2,
+      "output": "\u4E2D\u56FD\tzhong guo\t99\n\u4E2D\u6587\tzhong wen\t1\n",
+      "messages": [
+        "Import",
+        "Import",
+        "\u6B63\u5728\u8FC7\u6EE4...",
+        "\u6B63\u5728\u751F\u6210\u8BCD\u9891...",
+        "Export"
+      ],
+      "duplicatePolicy": "concatenation; no automatic deduplication"
+    }
+  },
+  {
+    "name": "generate_Pinyin",
+    "status": "executed",
+    "detail": {
+      "output": "\u4E2D\u56FD\tzhong guo\t1\n\u4E2D\u6587\tzhong wen\t1\n"
+    }
+  },
+  {
+    "name": "generate_Wubi86",
+    "status": "executed",
+    "detail": {
+      "output": "\u4E2D\u56FD\tkhlg\t1\n\u4E2D\u6587\tkhyy\t1\n"
+    }
+  },
+  {
+    "name": "Chinese_SimplifiedToTraditional",
+    "status": "executed",
+    "detail": {
+      "output": "\u4E2D\u570B\tzhong guo\t12\n"
+    }
+  },
+  {
+    "name": "Chinese_TraditionalToSimplified",
+    "status": "executed",
+    "detail": {
+      "output": "\u4E2D\u56FD\tzhong guo\t12\n"
+    }
+  },
+  {
+    "name": "encoding_provider_GBK",
+    "status": "executed",
+    "detail": {
+      "hex": "D6D0B9FAB4CABFE2",
+      "value": "\u4E2D\u56FD\u8BCD\u5E93"
+    }
+  },
+  {
+    "name": "encoding_provider_GB2312",
+    "status": "executed",
+    "detail": {
+      "hex": "D6D0B9FAB4CABFE2",
+      "value": "\u4E2D\u56FD\u8BCD\u5E93"
+    }
+  },
+  {
+    "name": "encoding_provider_Big5",
+    "status": "executed",
+    "detail": {
+      "hex": "A4A4B0EAB5FCAE77",
+      "value": "\u4E2D\u570B\u8A5E\u5EAB"
+    }
+  },
+  {
+    "name": "encoding_provider_UTF-8",
+    "status": "executed",
+    "detail": {
+      "hex": "E4B8ADE59BBDE8AF8DE5BA93",
+      "value": "\u4E2D\u56FD\u8BCD\u5E93"
+    }
+  },
+  {
+    "name": "word_import_GBK",
+    "status": "executed",
+    "detail": {
+      "expected": "\u4E2D\u56FD",
+      "actual": "\u4E2D\u56FD",
+      "correct": true
+    }
+  },
+  {
+    "name": "word_import_GB2312",
+    "status": "executed",
+    "detail": {
+      "expected": "\u4E2D\u56FD",
+      "actual": "\u4E2D\u56FD",
+      "correct": true
+    }
+  },
+  {
+    "name": "word_import_Big5",
+    "status": "executed",
+    "detail": {
+      "expected": "\u4E2D\u570B",
+      "actual": "\u3044\u74E3",
+      "correct": false
+    }
+  },
+  {
+    "name": "word_import_UTF-8",
+    "status": "executed",
+    "detail": {
+      "expected": "\u4E2D\u56FD",
+      "actual": "\u4E2D\u56FD",
+      "correct": true
+    }
+  },
+  {
+    "name": "binary_roundtrip_scel",
+    "status": "executed",
+    "detail": {
+      "bytes": 9820,
+      "words": [
+        {
+          "Word": "\u4E2D\u56FD",
+          "code": "zhong guo",
+          "Rank": 0
+        },
+        {
+          "Word": "\u4E2D\u6587",
+          "code": "zhong wen",
+          "Rank": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "binary_roundtrip_gboardbin",
+    "status": "executed",
+    "detail": {
+      "bytes": 5176,
+      "words": [
+        {
+          "Word": "\u4E2D\u56FD",
+          "code": "zhong guo",
+          "Rank": 99
+        },
+        {
+          "Word": "\u4E2D\u6587",
+          "code": "zhong wen",
+          "Rank": 12
+        }
+      ]
+    }
+  },
+  {
+    "name": "binary_roundtrip_libimebin",
+    "status": "executed",
+    "detail": {
+      "bytes": 741,
+      "words": [
+        {
+          "Word": "\u4E2D\u56FD",
+          "code": "zhong guo",
+          "Rank": 99
+        },
+        {
+          "Word": "\u4E2D\u6587",
+          "code": "zhong wen",
+          "Rank": 12
+        }
+      ]
+    }
+  },
+  {
+    "name": "pre_cancelled_token",
+    "status": "executed",
+    "detail": {
+      "cancelled": true,
+      "scope": "before import only; not mid-SCEL/UI cancellation"
+    }
+  },
+  {
+    "name": "SharpZipLib",
+    "status": "executed",
+    "detail": {
+      "bytes": 190
+    }
+  },
+  {
+    "name": "UTF.Unknown_stream",
+    "status": "executed",
+    "detail": {
+      "encoding": "utf-8"
+    }
+  }
+]

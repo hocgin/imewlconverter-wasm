@@ -1,0 +1,45 @@
+  Determining projects to restore...
+/Users/hocgin/Projects/_Web/imewlconverter-web/poc/wasm/WasmPoc.csproj : warning NU1510: PackageReference System.Text.Encoding.CodePages will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.
+  All projects are up-to-date for restore.
+Project 'WasmPoc' has the following package references
+   [net10.0]: 
+   Top-level Package                                     Requested     Resolved
+   > Microsoft.AspNetCore.App.Internal.Assets      (A)   [10.0.15, )   10.0.15 
+   > Microsoft.AspNetCore.Components.WebAssembly         10.0.15       10.0.15 
+   > Microsoft.NET.ILLink.Tasks                    (A)   [10.0.15, )   10.0.15 
+   > Microsoft.NET.Sdk.WebAssembly.Pack            (A)   [10.0.15, )   10.0.15 
+   > System.Text.Encoding.CodePages                      10.0.7        10.0.7  
+
+   Transitive Package                                           Resolved           
+   > Microsoft.AspNetCore.Authorization                         10.0.15            
+   > Microsoft.AspNetCore.Components                            10.0.15            
+   > Microsoft.AspNetCore.Components.Analyzers                  10.0.15            
+   > Microsoft.AspNetCore.Components.Forms                      10.0.15            
+   > Microsoft.AspNetCore.Components.Web                        10.0.15            
+   > Microsoft.AspNetCore.Metadata                              10.0.15            
+   > Microsoft.Extensions.Configuration                         10.0.15            
+   > Microsoft.Extensions.Configuration.Abstractions            10.0.15            
+   > Microsoft.Extensions.Configuration.Binder                  10.0.15            
+   > Microsoft.Extensions.Configuration.FileExtensions          10.0.15            
+   > Microsoft.Extensions.Configuration.Json                    10.0.15            
+   > Microsoft.Extensions.DependencyInjection                   10.0.15            
+   > Microsoft.Extensions.DependencyInjection.Abstractions      10.0.15            
+   > Microsoft.Extensions.Diagnostics                           10.0.15            
+   > Microsoft.Extensions.Diagnostics.Abstractions              10.0.15            
+   > Microsoft.Extensions.FileProviders.Abstractions            10.0.15            
+   > Microsoft.Extensions.FileProviders.Physical                10.0.15            
+   > Microsoft.Extensions.FileSystemGlobbing                    10.0.15            
+   > Microsoft.Extensions.Logging                               10.0.15            
+   > Microsoft.Extensions.Logging.Abstractions                  10.0.15            
+   > Microsoft.Extensions.Options                               10.0.15            
+   > Microsoft.Extensions.Options.ConfigurationExtensions       10.0.15            
+   > Microsoft.Extensions.Primitives                            10.0.15            
+   > Microsoft.Extensions.Validation                            10.0.15            
+   > Microsoft.JSInterop                                        10.0.15            
+   > Microsoft.JSInterop.WebAssembly                            10.0.15            
+   > SharpZipLib                                                1.4.2              
+   > System.CommandLine                                         2.0.0-beta4.22272.1
+   > UTF.Unknown                                                2.5.1              
+   > ZstdSharp.Port                                             0.8.8              
+
+(A) : Auto-referenced package.

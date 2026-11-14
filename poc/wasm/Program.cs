@@ -1,0 +1,10 @@
+using System.Text;
+using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using ImeWlConverter.Application.Bootstrap;
+using WasmPoc;
+Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+var builder = WebAssemblyHostBuilder.CreateDefault(args);
+builder.RootComponents.Add<App>("#app");
+builder.Services.AddImeWlConverter();
+builder.Services.AddScoped<StreamConverter>();
+await builder.Build().RunAsync();
